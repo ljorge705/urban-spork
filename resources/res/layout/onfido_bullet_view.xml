@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <View
+        android:id="@+id/bullet"
+        android:background="@drawable/onfido_circle_small"
+        android:layout_width="@dimen/onfido_liveness_intro_video_bullet_size"
+        android:layout_height="@dimen/onfido_liveness_intro_video_bullet_size"/>
+    <TextView
+        android:id="@+id/bulletTitle"
+        android:maxLines="2"
+        android:layout_marginStart="@dimen/onfido_liveness_intro_bullet_text_margin"
+        android:layout_toEndOf="@+id/bullet"
+        style="@style/OnfidoTextStyle.Body.Regular"/>
+</RelativeLayout>

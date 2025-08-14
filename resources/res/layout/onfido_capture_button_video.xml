@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.onfido.android.sdk.capture.ui.widget.OnfidoButton xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/livenessControlButton"
+    android:visibility="invisible"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/onfido_button_horizontal_margin"
+    android:layout_marginRight="@dimen/onfido_button_horizontal_margin"
+    android:layout_above="@+id/watermarkLayout"
+    android:layout_marginHorizontal="@dimen/onfido_button_horizontal_margin"
+    app:onfidoButtonText="@string/onfido_video_capture_button_primary_start"/>

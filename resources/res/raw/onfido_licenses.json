@@ -1,0 +1,129 @@
+{
+  "dependencies": [
+    {
+      "name": "Dagger",
+      "project_url": "https://github.com/google/dagger",
+      "license_name": "Apache-2.0",
+      "copyright_notice": "Copyright 2012 The Dagger Authors",
+      "changed_source_code": true,
+      "source_code_changes": "repackaging - dagger -> com.onfido.dagger"
+    },
+    {
+      "name": "JMRTD",
+      "project_url": "https://jmrtd.org/",
+      "license_name": "GNU Lesser General Public License (LGPL)",
+      "copyright_notice": "Copyright (C) 2007 Free Software Foundation, Inc.",
+      "changed_source_code": false
+    },
+    {
+      "name": "MLKit Barcode Scanning",
+      "project_url": "https://developers.google.com/ml-kit/vision/barcode-scanning/android",
+      "license_name": "Apache-2.0",
+      "copyright_notice": "https://developers.google.com/ml-kit/terms",
+      "changed_source_code": false
+    },
+    {
+      "name": "MLKit Face Detection",
+      "project_url": "https://developers.google.com/ml-kit/vision/face-detection/android",
+      "license_name": "Apache-2.0",
+      "copyright_notice": "https://developers.google.com/ml-kit/terms",
+      "changed_source_code": false
+    },
+    {
+      "name": "MLKit Text Recognition",
+      "project_url": "https://developers.google.com/ml-kit/vision/text-recognition/v2/android",
+      "license_name": "Apache-2.0",
+      "copyright_notice": "https://developers.google.com/ml-kit/terms",
+      "changed_source_code": false
+    },
+    {
+      "name": "okHttp",
+      "project_url": "https://square.github.io/okhttp/",
+      "license_name": "Apache-2.0",
+      "copyright_notice": "Copyright 2019 Square, Inc.",
+      "changed_source_code": false
+    },
+    {
+      "name": "Retrofit",
+      "project_url": "https://github.com/square/retrofit",
+      "license_name": "Apache-2.0",
+      "copyright_notice": "Copyright 2013 Square, Inc.",
+      "changed_source_code": false
+    },
+    {
+      "name": "Retrofit 2 Kotlin Serialization Converter",
+      "project_url": "https://github.com/JakeWharton/retrofit2-kotlinx-serialization-converter/",
+      "license_name": "Apache-2.0",
+      "copyright_notice": "Copyright 2018 Jake Wharton",
+      "changed_source_code": false
+    },
+    {
+      "name": "RxAndroid",
+      "project_url": "https://github.com/ReactiveX/RxAndroid",
+      "license_name": "Apache-2.0",
+      "copyright_notice": "Copyright 2015 The RxAndroid authors",
+      "changed_source_code": false
+    },
+    {
+      "name": "RxJava",
+      "project_url": "https://github.com/ReactiveX/RxJava",
+      "license_name": "Apache-2.0",
+      "copyright_notice": "Copyright (c) 2016-present, RxJava Contributors",
+      "changed_source_code": false
+    },
+    {
+      "name": "Scuba",
+      "project_url": "https://sourceforge.net/projects/scuba/",
+      "license_name": "GNU Lesser General Public License (LGPL)",
+      "copyright_notice": "Copyright (C) 2009-2013 The SCUBA team.",
+      "changed_source_code": false
+    },
+    {
+      "name": "Spongy Castle",
+      "project_url": "https://central.sonatype.com/artifact/com.madgag.spongycastle/prov",
+      "license_name": "MIT License",
+      "copyright_notice": "Copyright (c) 2000 - 2023 The Legion of the Bouncy Castle Inc.",
+      "changed_source_code": false
+    },
+    {
+      "name": "TensorFlow Lite",
+      "project_url": "https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite",
+      "license_name": "Apache-2.0",
+      "copyright_notice": "Copyright 2018 The TensorFlow Authors. All rights reserved.",
+      "changed_source_code": false
+    },
+    {
+      "name": "TensorFlow Lite Support",
+      "project_url": "https://github.com/tensorflow/tflite-support/tree/master",
+      "license_name": "Apache-2.0",
+      "copyright_notice": "Copyright 2020 The TensorFlow Authors.  All rights reserved.",
+      "changed_source_code": false
+    },
+    {
+      "name": "YearClass",
+      "project_url": "https://github.com/facebook/device-year-class",
+      "license_name": "BSD",
+      "copyright_notice": "Copyright (c) 2015, Facebook, Inc. All rights reserved.",
+      "changed_source_code": true,
+      "source_code_changes": "changed file headers to provide a correct location for the license and removed unneeded code for Android versions we do not support"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "Apache-2.0",
+      "file": "onfido_licenses_apache2_0.txt"
+    },
+    {
+      "name": "BSD",
+      "file": "onfido_licenses_bsd.txt"
+    },
+    {
+      "name": "GNU Lesser General Public License (LGPL)",
+      "file": "onfido_licenses_lgpl.txt"
+    },
+    {
+      "name": "MIT",
+      "file": "onfido_licenses_mit.txt"
+    }
+  ]
+}

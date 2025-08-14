@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="18dp"
+    android:width="24dp"
+    android:autoMirrored="true"
+    android:viewportWidth="24"
+    android:viewportHeight="18">
+    <path
+        android:fillColor="?attr/onfidoColorIconStroke"
+        android:pathData="M2 0h20c1.05 0 2 0.95 2 2v14c0 1.05-0.95 2-2 2H2c-1.05 0-2-0.95-2-2V2c0-1.05 0.95-2 2-2zm12 3v1h8V3h-8zm0 2v1h8V5h-8zm0 2v1h7V7h-7zm-6 3.91C6 10.91 2 12 2 14v1h12v-1c0-2-4-3.09-6-3.09zM8 3C6.343 3 5 4.343 5 6s1.343 3 3 3 3-1.343 3-3-1.343-3-3-3z"
+        android:strokeWidth="1"
+        android:fillType="evenOdd"/>
+</vector>

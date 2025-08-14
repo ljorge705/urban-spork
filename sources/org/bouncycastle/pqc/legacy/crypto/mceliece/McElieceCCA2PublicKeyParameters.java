@@ -1,0 +1,35 @@
+package org.bouncycastle.pqc.legacy.crypto.mceliece;
+
+import org.bouncycastle.pqc.legacy.math.linearalgebra.GF2Matrix;
+
+/* loaded from: classes4.dex */
+public class McElieceCCA2PublicKeyParameters extends McElieceCCA2KeyParameters {
+    private GF2Matrix matrixG;
+
+    /* renamed from: n, reason: collision with root package name */
+    private int f365n;
+    private int t;
+
+    public McElieceCCA2PublicKeyParameters(int i, int i2, GF2Matrix gF2Matrix, String str) {
+        super(false, str);
+        this.f365n = i;
+        this.t = i2;
+        this.matrixG = new GF2Matrix(gF2Matrix);
+    }
+
+    public GF2Matrix getG() {
+        return this.matrixG;
+    }
+
+    public int getK() {
+        return this.matrixG.getNumRows();
+    }
+
+    public int getN() {
+        return this.f365n;
+    }
+
+    public int getT() {
+        return this.t;
+    }
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="ctIsTablet">true</bool>
+    <bool name="onfido_is_tablet">true</bool>
+    <bool name="onfido_validation_bubble_tight_mode">true</bool>
+</resources>

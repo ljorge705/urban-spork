@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/onfido_hosted_web_module_bottom_sheet_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="200dp">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/topLayout"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <View
+            android:background="@drawable/onfido_hosted_web_module_bottom_sheet_header"
+            android:layout_width="50dp"
+            android:layout_height="3dp"
+            android:alpha="0.99"
+            app:layout_constraintBottom_toBottomOf="@+id/buttonClose"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/buttonClose"/>
+        <ImageButton
+            android:id="@+id/buttonClose"
+            android:background="@drawable/onfido_hosted_web_module_close_button_bg"
+            android:padding="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/onfido_hosted_web_module_close_button_ic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.google.android.material.progressindicator.CircularProgressIndicator
+        android:layout_gravity="center"
+        android:id="@+id/progress_circular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/OnfidoCircularProgressIndicatorStyle"/>
+    <WebView
+        android:id="@+id/onfidoBottomSheetWebView"
+        android:background="@color/onfido_white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonClose"/>
+</LinearLayout>

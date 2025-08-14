@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="inapp_button_height">66dp</dimen>
+    <dimen name="onfido_button_horizontal_margin">96dp</dimen>
+    <dimen name="onfido_document_capture_rectangle_top_margin">253dp</dimen>
+    <dimen name="onfido_document_capture_text_side_margin">97dp</dimen>
+    <dimen name="onfido_document_overlay_horizontal_weight">0.75</dimen>
+    <dimen name="onfido_face_capture_rectangle_top_margin">150dp</dimen>
+    <dimen name="onfido_face_overlay_horizontal_weight">0.6</dimen>
+    <dimen name="onfido_flat_button_horizontal_margin">114dp</dimen>
+    <dimen name="onfido_fs_headline_large">22sp</dimen>
+    <dimen name="onfido_fs_medium">20sp</dimen>
+    <dimen name="onfido_fs_normal">22sp</dimen>
+    <dimen name="onfido_fs_xxlarge">34sp</dimen>
+    <dimen name="onfido_green_tick_dimen">80dp</dimen>
+    <dimen name="onfido_liveness_face_detection_oval_dash_length">20dp</dimen>
+    <dimen name="onfido_margin_bottom_camera_button">48dp</dimen>
+    <dimen name="onfido_message_button_bottom_margin">32dp</dimen>
+    <dimen name="onfido_permissions_request_image_margin_bottom">32dp</dimen>
+    <dimen name="onfido_permissions_request_tap_explanation_margin_bottom">34dp</dimen>
+    <dimen name="onfido_permissions_request_title_margin_bottom">30dp</dimen>
+    <dimen name="onfido_watermark_bottom_margin">64dp</dimen>
+    <dimen name="txt_size_inapp_button">22sp</dimen>
+    <dimen name="txt_size_inapp_footer_button">22sp</dimen>
+    <dimen name="txt_size_inapp_footer_message">20sp</dimen>
+    <dimen name="txt_size_inapp_footer_title">24sp</dimen>
+    <dimen name="txt_size_inapp_half_button">22sp</dimen>
+    <dimen name="txt_size_inapp_half_message">24sp</dimen>
+    <dimen name="txt_size_inapp_half_title">36sp</dimen>
+    <dimen name="txt_size_inapp_message">24sp</dimen>
+    <dimen name="txt_size_inapp_title">36sp</dimen>
+</resources>

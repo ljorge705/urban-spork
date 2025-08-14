@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="top"
+    android:id="@+id/overlayTextContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/confirmationButtons">
+    <TextView
+        android:gravity="center"
+        android:id="@+id/mainText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="false"
+        android:layout_centerHorizontal="true"
+        android:importantForAccessibility="yes"
+        android:layout_marginStart="@dimen/onfido_confirmation_buttons_activity_horizontal_margin"
+        android:layout_marginEnd="@dimen/onfido_confirmation_buttons_activity_horizontal_margin"
+        style="@style/OnfidoTextStyle.Title.ExtraSmall.Inverse"/>
+    <TextView
+        android:ellipsize="end"
+        android:gravity="center"
+        android:id="@+id/secondaryText"
+        android:scrollbars="vertical"
+        android:layout_marginTop="@dimen/onfido_capture_instructions_inner_margin"
+        android:layout_below="@+id/mainText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="@dimen/onfido_confirmation_buttons_activity_horizontal_margin"
+        android:layout_marginEnd="@dimen/onfido_confirmation_buttons_activity_horizontal_margin"
+        style="@style/OnfidoTextStyle.Body.Regular.Inverse"/>
+</RelativeLayout>

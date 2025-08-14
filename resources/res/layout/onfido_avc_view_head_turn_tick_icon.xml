@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center"
+    android:layout_width="@dimen/onfido_avc_tick_icon_size"
+    android:layout_height="@dimen/onfido_avc_tick_icon_size"
+    android:src="@drawable/onfido_ic_avc_tick_green"/>

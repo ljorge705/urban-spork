@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="44dp"
+    android:width="44dp"
+    android:viewportWidth="60"
+    android:viewportHeight="60">
+    <path
+        android:fillColor="@color/onfidoPrimaryButtonColor"
+        android:pathData="M0 30a30 30 0 1 1 60 0 30 30 0 1 1-60 0"
+        android:strokeWidth="1"
+        android:fillType="evenOdd"/>
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M40.106 31.635L25.413 40.54c-0.584 0.354-1.334 0.149-1.675-0.458-0.109-0.195-0.167-0.416-0.167-0.641V21.63c0-0.703 0.549-1.273 1.225-1.273 0.217 0 0.43 0.06 0.617 0.173l14.693 8.906c0.585 0.355 0.782 1.134 0.441 1.74-0.106 0.19-0.258 0.348-0.44 0.459z"
+        android:strokeWidth="1"/>
+</vector>

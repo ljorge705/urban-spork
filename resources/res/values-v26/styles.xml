@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.AppCompat" parent="@style/Base.V26.Theme.AppCompat">
+    </style>
+    <style name="Base.Theme.AppCompat.Light" parent="@style/Base.V26.Theme.AppCompat.Light">
+    </style>
+    <style name="Base.V26.Theme.AppCompat" parent="@style/Base.V23.Theme.AppCompat">
+        <item name="colorError">?android:attr/colorError</item>
+    </style>
+    <style name="Base.V26.Theme.AppCompat.Light" parent="@style/Base.V23.Theme.AppCompat.Light">
+        <item name="colorError">?android:attr/colorError</item>
+    </style>
+    <style name="Base.V26.Widget.AppCompat.Toolbar" parent="@style/Base.V7.Widget.AppCompat.Toolbar">
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="android:keyboardNavigationCluster">true</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Toolbar" parent="@style/Base.V26.Widget.AppCompat.Toolbar">
+    </style>
+    <style name="OnfidoAvcTimeoutItem" parent="@style/OnfidoTextStyle.Body.Regular">
+        <item name="android:textColor">?attr/onfidoColorContentSecondary</item>
+        <item name="android:gravity">0x77</item>
+        <item name="android:layout_width">-1</item>
+        <item name="android:layout_height">-2</item>
+        <item name="android:layout_marginBottom">32dp</item>
+        <item name="android:drawablePadding">16dp</item>
+        <item name="android:paddingStart">0dp</item>
+        <item name="android:layout_marginStart">32dp</item>
+        <item name="android:layout_marginEnd">32dp</item>
+        <item name="android:layout_marginHorizontal">32dp</item>
+    </style>
+    <style name="Widget.Design.AppBarLayout" parent="@android:style/Widget">
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="android:stateListAnimator">@animator/design_appbar_state_list_animator</item>
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="android:keyboardNavigationCluster">true</item>
+    </style>
+</resources>

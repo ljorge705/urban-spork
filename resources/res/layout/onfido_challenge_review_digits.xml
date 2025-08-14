@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:id="@+id/reviewChallenge"
+    android:padding="@dimen/onfido_liveness_challenges_review_instructions_padding"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true">
+    <TextView
+        android:textSize="@dimen/onfido_fs_body_compact"
+        android:gravity="center"
+        android:id="@+id/reviewDigitsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/onfido_video_capture_header_challenge_digit_instructions"
+        android:lineSpacingExtra="@dimen/onfido_line_height_extra_body_compact"
+        style="@style/OnfidoTextStyle.Body.Compact.Inverse"/>
+    <TextView
+        android:textSize="@dimen/onfido_liveness_challenges_review_digits_text_size"
+        android:id="@+id/reviewDigitsSubtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/onfido_liveness_challenges_review_digits_margin_vertical"
+        style="@style/OnfidoTextStyle.Body.Compact.Inverse"/>
+</LinearLayout>

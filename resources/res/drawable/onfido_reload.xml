@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="12dp"
+    android:width="11dp"
+    android:viewportWidth="11"
+    android:viewportHeight="12">
+    <path
+        android:fillColor="@color/onfidoPrimaryButtonColor"
+        android:pathData="M7.983 2l-2.65-2v1.333C2.443 1.333 0 3.776 0 6.667 0 9.558 2.443 12 5.333 12c2.892 0 5.334-2.442 5.334-5.333H9.333c0 2.168-1.832 4-4 4s-4-1.832-4-4 1.832-4 4-4V4l2.65-2z"
+        android:strokeWidth="1"
+        android:fillType="evenOdd"/>
+</vector>

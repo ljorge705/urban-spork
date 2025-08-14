@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/onfido_black_80"/>
+    <corners android:radius="32dp"/>
+    <padding
+        android:left="@dimen/onfido_spacing_3x"
+        android:top="@dimen/onfido_spacing_2x"
+        android:right="@dimen/onfido_spacing_3x"
+        android:bottom="@dimen/onfido_spacing_2x"/>
+</shape>

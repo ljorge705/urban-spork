@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="onfido_show_confirmation_buttons_horizontally">false</bool>
+</resources>

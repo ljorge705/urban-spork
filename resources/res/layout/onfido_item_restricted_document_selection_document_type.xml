@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:background="@drawable/onfido_bg_list_item"
+    android:padding="@dimen/onfido_spacing_1x"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="4dp">
+    <ImageView
+        android:id="@+id/ivDocumentIcon"
+        android:background="@drawable/onfido_circle_24"
+        android:layout_width="@dimen/onfido_restricted_document_selection_document_type_image_size"
+        android:layout_height="@dimen/onfido_restricted_document_selection_document_type_image_size"
+        android:layout_margin="@dimen/onfido_spacing_1x"
+        android:backgroundTint="?attr/onfidoColorIconBackground"/>
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="4dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/tvDocumentType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/OnfidoTextStyle.Subtitle.Medium"/>
+        <TextView
+            android:id="@+id/tvDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/OnfidoTextStyle.Subtitle"/>
+    </LinearLayout>
+</LinearLayout>

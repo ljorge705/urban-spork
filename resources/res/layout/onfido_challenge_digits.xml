@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/challengeContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:id="@+id/challenge"
+        android:focusable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:importantForAccessibility="no">
+        <TextView
+            android:textSize="@dimen/onfido_fs_title_small_dp"
+            android:gravity="center"
+            android:id="@+id/title"
+            android:layout_marginBottom="4dp"
+            android:text="@string/onfido_video_capture_header_challenge_digit_instructions"
+            android:lineSpacingExtra="@dimen/onfido_line_height_extra_title_small_dp"
+            android:importantForAccessibility="no"
+            style="@style/OnfidoTextStyle.Title.Small.Inverse"/>
+        <TextView
+            android:textSize="@dimen/onfido_liveness_challenge_digits_subtitle_size"
+            android:id="@+id/subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/onfido_liveness_instructions_digits_inner_margin"
+            android:importantForAccessibility="no"
+            style="@style/OnfidoTextStyle.Title.Inverse"/>
+    </LinearLayout>
+</RelativeLayout>

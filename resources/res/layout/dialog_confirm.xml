@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/dialog_image"
+        android:layout_width="208dp"
+        android:layout_height="208dp"
+        android:layout_marginBottom="16dp"/>
+    <TextView
+        android:textSize="18sp"
+        android:textColor="#12cbad"
+        android:gravity="center"
+        android:id="@+id/dialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Usage Information"/>
+    <TextView
+        android:textSize="14sp"
+        android:textColor="#575757"
+        android:gravity="center"
+        android:id="@+id/dialog_message_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="To provide you with the best experience and tailor to your preferences, we suggest enabling usage permissions."
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"/>
+    <TextView
+        android:textSize="14sp"
+        android:textColor="#575757"
+        android:gravity="center"
+        android:id="@+id/dialog_message_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="We respect your privacy to the fullest extent. We only collect necessary information to enhance your experience securely, always adhering to our Privacy Policy."
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"/>
+    <Button
+        android:textColor="@android:color/white"
+        android:id="@+id/dialog_accept"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Configure Access"
+        android:backgroundTint="@android:color/holo_blue_dark"/>
+    <Button
+        android:textColor="@android:color/holo_blue_dark"
+        android:id="@+id/dialog_cancel"
+        android:background="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reject"/>
+</LinearLayout>

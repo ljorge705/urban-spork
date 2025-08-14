@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:background="@drawable/onfido_video_recording_indicator_background"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:paddingStart="16dp"
+    android:paddingEnd="24dp">
+    <com.google.android.material.progressindicator.CircularProgressIndicator
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:importantForAccessibility="no"
+        app:indicatorColor="@color/onfido_white"
+        app:indicatorSize="@dimen/onfido_document_capture_video_progressbar_indicator_size"
+        app:trackColor="@color/onfido_white_25"
+        app:trackCornerRadius="@dimen/onfido_circular_progress_track_corner_radius"
+        app:trackThickness="@dimen/onfido_circular_progress_thickness"/>
+    <TextView
+        android:id="@+id/mainText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/onfido_doc_capture_header_capturing"
+        android:layout_marginStart="12dp"
+        style="@style/OnfidoTextStyle.Subtitle.Medium.Inverse"/>
+</LinearLayout>

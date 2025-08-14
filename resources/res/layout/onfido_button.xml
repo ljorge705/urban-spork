@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatButton
+        android:textSize="@dimen/onfido_flat_button_text_size"
+        android:textColor="?attr/onfidoColorContentOnAction"
+        android:ellipsize="end"
+        android:id="@+id/appCompatButton"
+        android:background="@drawable/onfido_bg_button_secondary"
+        android:paddingTop="@dimen/onfido_confirmation_buttons_inner_margin_vertical"
+        android:paddingBottom="@dimen/onfido_confirmation_buttons_inner_margin_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="@dimen/onfido_flat_button_text_line_spacing_extra"
+        android:textAllCaps="false"
+        android:paddingStart="@dimen/onfido_confirmation_buttons_inner_margin_horizontal"
+        android:paddingEnd="@dimen/onfido_confirmation_buttons_inner_margin_horizontal"
+        app:fontFamily="?attr/onfidoFontFamilyButton"
+        style="?android:attr/borderlessButtonStyle"/>
+</FrameLayout>

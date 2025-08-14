@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.onfido.android.sdk.capture.ui.camera.view.CameraSourcePreview
+        android:id="@+id/cameraView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <ViewStub
+        android:id="@+id/overlay_view_stub"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <com.onfido.android.sdk.capture.edge_detector.EdgeDetectorFrame
+        android:id="@+id/onfido_capture_frame"
+        android:visibility="gone"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <ImageView
+        android:id="@+id/document_overlay_image"
+        android:visibility="gone"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="fitEnd"
+        android:importantForAccessibility="no"
+        app:layout_constraintBottom_toBottomOf="@+id/onfido_capture_frame"
+        app:layout_constraintEnd_toEndOf="@+id/onfido_capture_frame"
+        app:layout_constraintStart_toStartOf="@+id/onfido_capture_frame"
+        app:layout_constraintTop_toTopOf="@+id/onfido_capture_frame"/>
+</merge>

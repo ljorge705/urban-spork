@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/content"
+    android:visibility="gone"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:importantForAccessibility="no">
+    <FrameLayout
+        android:id="@+id/contentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:importantForAccessibility="noHideDescendants">
+        <com.onfido.android.sdk.capture.ui.camera.view.CameraSourcePreview
+            android:id="@+id/cameraPreview"
+            android:background="?attr/onfidoColorCameraPreviewBackground"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/overlayContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        app:contentInsetLeft="@dimen/onfido_toolbar_title_space_left"
+        app:contentInsetStartWithNavigation="@dimen/onfido_toolbar_title_space_left"/>
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textStyle="normal"
+    android:id="@+id/tvInstruction"
+    android:paddingTop="@dimen/onfido_spacing_1x"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/onfido_spacing_1x"
+    android:drawablePadding="@dimen/onfido_spacing_2x"
+    android:layout_marginStart="@dimen/onfido_spacing_2x"
+    android:layout_marginEnd="@dimen/onfido_spacing_2x"
+    style="@style/OnfidoTextStyle.Body.Regular.Bullet"/>

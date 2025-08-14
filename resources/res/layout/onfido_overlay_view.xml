@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tickContainer"
+    android:background="@drawable/onfido_view_green_oval"
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:layout_centerHorizontal="true">
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/tickIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/onfido_ic_check"/>
+</FrameLayout>

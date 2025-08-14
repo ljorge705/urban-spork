@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:id="@+id/circlesContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:mirrorForRtl="true">
+        <include
+            android:layout_width="@dimen/onfido_loading_view_max_circle_width"
+            android:layout_height="@dimen/onfido_loading_view_max_circle_width"
+            android:layout_marginEnd="@dimen/onfido_loading_view_inter_margin"
+            layout="@layout/onfido_loading_view_circle_container"/>
+        <include
+            android:layout_width="@dimen/onfido_loading_view_max_circle_width"
+            android:layout_height="@dimen/onfido_loading_view_max_circle_width"
+            android:layout_marginEnd="@dimen/onfido_loading_view_inter_margin"
+            layout="@layout/onfido_loading_view_circle_container"/>
+        <include
+            android:layout_width="@dimen/onfido_loading_view_max_circle_width"
+            android:layout_height="@dimen/onfido_loading_view_max_circle_width"
+            layout="@layout/onfido_loading_view_circle_container"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/content"
+        android:layout_marginTop="@dimen/onfido_loading_view_circles_margin_bottom"
+        style="@style/OnfidoTextStyle.Body.Compact"/>
+</LinearLayout>

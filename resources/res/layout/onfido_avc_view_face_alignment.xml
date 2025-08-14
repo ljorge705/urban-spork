@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.onfido.android.sdk.capture.component.active.video.capture.presentation.capture.view.facealignment.FaceAlignmentFrameView
+        android:id="@+id/faceAlignmentViewFrameView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <View
+        android:background="@color/onfido_black_80"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"/>
+    <LinearLayout
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:background="@color/onfido_black_80"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/onfido_avc_face_alignment_view_footer_height">
+        <TextView
+            android:gravity="center"
+            android:id="@+id/faceAlignmentViewInstruction"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="@string/onfido_avc_face_alignment_title"
+            android:layout_weight="1"
+            android:contentDescription="@string/onfido_avc_face_alignment_title_accessibility"
+            android:paddingStart="@dimen/onfido_spacing_4x"
+            android:paddingEnd="@dimen/onfido_spacing_4x"
+            style="@style/Onfido.Avc.TextAppearance.Instruction"/>
+        <com.onfido.android.sdk.capture.ui.widget.WatermarkView
+            android:id="@+id/watermark"
+            android:layout_marginTop="@dimen/onfido_spacing_1x"
+            android:layout_marginBottom="@dimen/onfido_watermark_bottom_margin"
+            style="@style/OnfidoWatermarkStyle"/>
+    </LinearLayout>
+</merge>

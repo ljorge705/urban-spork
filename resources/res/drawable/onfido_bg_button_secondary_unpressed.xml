@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <corners android:radius="@dimen/onfidoButtonCornerRadius"/>
+    <solid android:color="?attr/onfidoColorBackground"/>
+    <stroke
+        android:width="@dimen/onfido_flat_button_stroke_width"
+        android:color="?attr/onfidoColorActionSecondaryBorder"/>
+</shape>

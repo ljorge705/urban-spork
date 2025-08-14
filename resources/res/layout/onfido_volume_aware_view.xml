@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.onfido.android.sdk.capture.audio.ExpandablePillView
+        android:id="@+id/pillView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <RelativeLayout
+        android:id="@+id/speaker"
+        android:background="@drawable/onfido_audio_pill_background"
+        android:padding="@dimen/onfido_audio_pill_icon_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="@dimen/onfido_audio_speaker_size"
+            android:layout_height="@dimen/onfido_audio_speaker_size"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/onfido_volume_full"/>
+    </RelativeLayout>
+    <TextView
+        android:textColor="?attr/onfidoColorContentOnAction"
+        android:ellipsize="end"
+        android:id="@+id/turnSoundOn"
+        android:layout_marginBottom="@dimen/onfido_audio_pill_icon_margin"
+        android:text="@string/onfido_video_confirmation_button_audio_unmute"
+        android:includeFontPadding="false"
+        android:alpha="0"
+        android:layout_marginStart="@dimen/onfido_audio_pill_icon_margin"
+        android:layout_toEndOf="@+id/speaker"
+        style="@style/OnfidoTextStyle.Body.Compact"/>
+</RelativeLayout>

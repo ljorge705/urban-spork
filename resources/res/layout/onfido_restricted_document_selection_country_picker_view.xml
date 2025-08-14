@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/onfido_bg_list_item"
+    android:padding="@dimen/onfido_spacing_1x"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/onfido_spacing_2x"
+    android:minHeight="@dimen/onfido_restricted_document_selection_country_picker_min_height">
+    <ImageView
+        android:id="@+id/countryIcon"
+        android:visibility="gone"
+        android:layout_width="@dimen/onfido_restricted_document_selection_country_picker_image_size"
+        android:layout_height="@dimen/onfido_restricted_document_selection_country_picker_image_size"
+        android:layout_marginTop="@dimen/onfido_spacing_1x"
+        android:layout_marginBottom="@dimen/onfido_spacing_1x"
+        android:layout_marginStart="@dimen/onfido_spacing_1x"
+        android:layout_marginVertical="@dimen/onfido_spacing_1x"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/countryName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:id="@+id/countryName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginStart="@dimen/onfido_spacing_1x"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/arrowIcon"
+        app:layout_constraintStart_toEndOf="@+id/countryIcon"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/OnfidoTextStyle.Subtitle.Medium"/>
+    <ImageView
+        android:id="@+id/arrowIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/onfido_spacing_1x"
+        android:src="@drawable/onfido_ic_chevron_right"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

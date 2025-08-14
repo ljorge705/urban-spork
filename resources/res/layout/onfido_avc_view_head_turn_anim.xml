@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center"
+    android:background="@drawable/onfido_ic_avc_head_turn_anim_background"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <com.onfido.android.sdk.capture.component.active.video.capture.presentation.capture.view.headturn.OnfidoAnimWebView
+        android:layout_gravity="center"
+        android:id="@+id/animWebView"
+        android:scrollbars="none"
+        android:layout_width="96dp"
+        android:layout_height="120dp"
+        android:layout_margin="@dimen/onfido_spacing_3x"/>
+</FrameLayout>

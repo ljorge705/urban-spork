@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/loadingView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include
+        android:id="@+id/spinner"
+        layout="@layout/onfido_progress_layout"/>
+    <include layout="@layout/onfido_watermark_layout"/>
+</RelativeLayout>
